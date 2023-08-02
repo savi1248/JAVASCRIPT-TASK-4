@@ -56,12 +56,7 @@ header{
     color: rgba(255, 0, 0, 0.579);
     text-decoration: none;
 }
-#todo ul li span:hover{
-    color: rgba(255, 0, 0, 0.992);
-}
-#todo ul li:hover{
-    background: #008793;
-}
+
 input,button{
     padding: .8em;
     border-radius: 10px;
