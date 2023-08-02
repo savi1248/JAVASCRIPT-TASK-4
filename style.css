@@ -52,7 +52,7 @@ header{
     text-decoration: line-through;
     opacity: .7;
     transition: all .5 ease-in-out;
-    color: greenyellow;
+    color: white;
 }
 #todo ul li span{
     color: rgba(255, 0, 0, 0.579);
