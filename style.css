@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    padding: .4em 5em .4em 5em;
+    color: aliceblue;
+    background: wheat;
+}
+.container{
+    background-color:wheat;
+    width: 100vw;
+    min-height: 100vh;
+    padding: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#todo{
+    background: #252525;
+    backdrop-filter: blur(12px);
+    padding: 2em;
+    border-radius: 10px;
+    min-height: 300px;
+    max-width: 600px;
+}
+#todo h1{
+    color: white;
+    text-align: center;
+    margin-bottom: .7em;
+}
+#todo ul{
+    margin-top: 2em;
+}
+#todo ul li{
+    list-style: none;
+    color: white;
+    padding: .8em;
+    margin-top: .5em;
+    border-radius: 10px;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.182);
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.checked{
+    text-decoration: line-through;
+    opacity: .7;
+    transition: all .5 ease-in-out;
+    color: greenyellow;
+}
+#todo ul li span{
+    color: rgba(255, 0, 0, 0.579);
+    text-decoration: none;
+}
+#todo ul li span:hover{
+    color: rgba(255, 0, 0, 0.992);
+}
+#todo ul li:hover{
+    background: #008793;
+}
+input,button{
+    padding: .8em;
+    border-radius: 10px;
+    border: none;
+}
+input{
+    width: 80%;
+    background: #252525;
+    color: aliceblue;
+    border: 1px solid white;
+}
+
+button{
+    width: 20%;
+    float: right;
+    background: #00bf72;
+}
