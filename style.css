@@ -50,7 +50,7 @@ header{
 }
 .checked{
     text-decoration: line-through;
-    color: voilet;
+    color: violet;
 }
 #todo ul li span{
     color: rgba(255, 0, 0, 0.579);
