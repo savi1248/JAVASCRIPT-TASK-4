@@ -7,7 +7,7 @@ const list = document.getElementById('list')
 addBtn.addEventListener('click',() => {
 
     if(input.value == '' ) {
-        input.style.border = '1px solid red'
+        alert("Enter something...")
     } 
     else{
 
