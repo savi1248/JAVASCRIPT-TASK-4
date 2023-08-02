@@ -43,7 +43,6 @@ header{
     padding: .8em;
     margin-top: .5em;
     border-radius: 10px;
-    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.182);
     display: flex;
     justify-content: space-between;
     cursor: pointer;
@@ -70,7 +69,7 @@ input{
 }
 
 button{
-    width: 20%;
+    width: 18%;
     float: right;
     background: wheat;
 }
